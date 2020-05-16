@@ -7,7 +7,6 @@ end
 def words_starting_with_un_and_ending_with_ing(text)
   new_array = []
   new_array << text.scan(/\w+\A+un/)
-  text
   binding.pry
 end
 

@@ -5,7 +5,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.scan(/\w+\A+un/)
+  new_array = []
+  new_array << text.scan(/\w+\A+un/)
   text
   binding.pry
 end
